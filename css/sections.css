@@ -1,0 +1,157 @@
+/* Hero */
+
+.Hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#video-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 100vh;
+    z-index: -1000;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 170px;
+    margin-left: 170px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content h1 {
+    font-size: 2.5em;
+}
+
+.content p {
+    font-size: 1.5em;
+    color: #ffffff;
+    font-size: small;
+}
+/* End Hero */
+
+
+/* ValueProposition */
+#ValueProposition {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ValueProposition__title{
+text-align: center;
+margin-bottom: 50px;
+}
+
+
+
+.ValueProposition__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ValueProposition__cards img{
+    height: 70px;
+    width: auto;
+    margin-bottom: 30px;
+
+}
+/* End ValueProposition */
+
+
+
+/* Services */
+#Services{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#Services img{
+    height: 400px;
+}
+/* End Services */
+
+/* Steps */
+#Steps{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.step1, .step2, .step3, .step4 {
+    padding-bottom: 100px;
+}
+
+#Steps img{
+    height: 400px;
+}
+/* End Steps */
+
+
+
+/* Companies */
+#Companies{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(56, 56, 56);
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#Companies img{
+    width: 120px;
+}
+
+#Companies ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+#Companies h3{
+    color: white;
+}
+
+/* End Companies */
+
+
+
+
+
+
+

@@ -1,8 +1,8 @@
 footer {
-    background-color: #515151;
+    background-color: #111111;
     color: white;
     padding-top: 40px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 
 footer img{
@@ -36,7 +36,7 @@ footer img{
 }
 
 .footer-section ul a:hover{
-    color: black;
+    color: grey;
 }
 
 .footer-section ul li {
@@ -75,7 +75,7 @@ footer img{
 }
 
 .footer-social a:hover {
-    color: #000008;
+    color: grey;
 }
 
 .footer-section p, span{
@@ -98,7 +98,7 @@ footer img{
     height: 100%;
     text-align: center;
     color: #989696;
-    border-top: solid 1px #515151;
+    border-top: solid 0.2px #333333;
     padding-top: 20px;
     margin: 0px;
 }

@@ -5,6 +5,10 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
+    display: flex;            /* Usar Flexbox para centrar */
+    align-items: center;      /* Centrar verticalmente */
+    justify-content: center;  /* Centrar horizontalmente */
+    text-align: center;       /* Alinear el texto al centro */
 }
 
 #video-background {
@@ -18,20 +22,29 @@
     transform: translate(-50%, -50%);
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    z-index: -999;
+}
+
 
 .content {
     width: 100%;
+    max-width: 1024px;
     position: relative;
     z-index: 1;
-    text-align: left;
+    text-align: center;  /* Centramos el texto */
     color: #ffffff;
     padding: 20px;
-    margin-top: 170px;
-    margin-left: 170px;
-    max-width: 1024px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center; /* Centrar contenido dentro de la columna */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
@@ -69,11 +82,21 @@
     background-color: rgb(255, 255, 255);
     padding-top: 30px;
     padding-bottom: 0px;
+    text-align: center;
+    
 }
 
-.ValueProposition__title{
+.ValueProposition__title__A{
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    color: #99A0E7;
+}
+
+.ValueProposition__cards .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -83,15 +106,20 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
 
 }
 
 .ValueProposition__cards img{
     width: 80px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     margin-left: 16px;
     background-color: #E5E7F9;
+    
 }
+
+
 /* End ValueProposition */
 
 
@@ -100,10 +128,10 @@
 .Services {
     display: flex;
     width: 100%;
-    height: 50vh;
+    height: auto;
 }
 
-.image-container, .text-container {
+.image-container, .Services__text_container {
     flex: 1; /* Ambos contenedores ocupan el 50% del ancho */
 }
 
@@ -113,11 +141,13 @@
     object-fit: cover; /* Asegura que la imagen cubra completamente su contenedor */
 }
 
-.text-container {
+.Services__text_container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 50px;
-    background-color: #f4f4f4; 
+    background-color: #E5E7F9;
     text-align: left; 
 }
 /* End Services */
@@ -127,68 +157,78 @@
     height: auto;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    background-color: white;
-    padding-top: 50px;
+    flex-direction: row;
+    background-color:#ffffff;
+    padding: 20px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.step1, .step2, .step3, .step4 {
-    padding-bottom: 100px;
+.Steps__cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+
 }
 
-.step1, .step3 {
-    text-align: left;
+.Steps__number{
+    background-color: white;
+    border-radius: 5px;
+    height: 200px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #99A0E7;
+
 }
 
-.step2, .step4 {
-    text-align: right;
+.Steps__number img{
+width: 100px;    
 }
 
-#Steps img{
-    height: 400px;
+#Steps .card{
+    width: min-content;
+    border: none;
 }
 
-.Steps__tittle{
-    padding-bottom: 100px;
-}
+
 /* End Steps */
 
 /* Benefits */
-#Benefits {
+.Benefits {
     display: flex;
-    flex-direction: column;
-
-
-    background-color: #99A0E7;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    
+    width: 100%;
+    height: auto;
+    background-color: #E5E7F9;
 }
 
-.Benefits__title{
-text-align: center;
-margin-bottom: 50px;
+.first-container, .second-container {
+    flex: 1; /* Ambos contenedores ocupan el 50% del ancho */
 }
 
-
-
-.Benefits__cards {
+.first-container {
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 30px;
-
-
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: left; 
 }
 
-.Benefits__cards img{
-    height: 70px;
-    width: auto;
-    margin-bottom: 30px;
-
+.second-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: left; 
 }
 /* End Benefits */
 
@@ -199,7 +239,7 @@ margin-bottom: 50px;
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: #ffffff;
+    background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -208,6 +248,7 @@ margin-bottom: 50px;
 
 #Team img{
     width: 120px;
+    padding-bottom: 20px;
 }
 
 #Team ul{
@@ -216,6 +257,10 @@ margin-bottom: 50px;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+}
+
+#Team h1{
+    color: #99A0E7;
 }
 
 #Team h5{
@@ -231,7 +276,7 @@ margin-bottom: 50px;
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: rgb(56, 56, 56);
+    background-color: #060232;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;

@@ -1,0 +1,38 @@
+.Services {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.image-container, .Services__text_container {
+    flex: 1; /* Ambos contenedores ocupan el 50% del ancho */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra completamente su contenedor */
+}
+
+.Services__text_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 50px;
+    background-color:#060031;
+    text-align: left; 
+    color: #ffffff;
+}
+
+.Services__text_container h4{
+    color: #4d51f7;
+}
+
+.Services__text_container h1{
+    margin-bottom: 30px;
+}
+
+.Services__text2 {
+    margin-bottom: 20px;
+}

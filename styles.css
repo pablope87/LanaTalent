@@ -1,4 +1,7 @@
 @import "./css/hero.css";
+@import "./css/team.css";
+@import "./css/benefits.css";
+@import "./css/services.css";
 @import "./css/video-hero.css";
 @import "./css/footer.css";
 @import "./css/header.css";
@@ -7,3 +10,4 @@
 @import "./css/responsive.css";
 @import "./css/sections.css";
 @import "./css/contact.css";
+@import "./css/value-proposition.css";

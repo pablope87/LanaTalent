@@ -1,0 +1,47 @@
+/* ValueProposition */
+#ValueProposition {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 100px;
+    text-align: center;
+    
+}
+
+.ValueProposition__title__A{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #060031;
+    font-weight: 800;
+}
+
+.ValueProposition__cards .card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+
+
+.ValueProposition__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    text-align: left;
+
+}
+
+.ValueProposition__cards img{
+    width: 80px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-left: 16px;
+    /* background-color: lightgrey; */
+    
+}
+/* End ValueProposition */

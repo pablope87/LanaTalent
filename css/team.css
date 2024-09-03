@@ -1,0 +1,45 @@
+#Team{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #060031;
+    padding: 100px;
+    text-align: center;
+
+}
+
+#Team img{
+    width: 120px;
+    padding-bottom: 20px;
+}
+
+#Team ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+#Team h1{
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+#Team h4{
+    color: #4d51f7;
+    padding-bottom: 100px;
+}
+
+#Team i{
+    color: white;
+}
+
+#Team p, .blockquote-footer{
+    color: #ffffff;
+}

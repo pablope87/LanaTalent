@@ -1,24 +1,106 @@
 /* Header */
-header{
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    background-color: #060232;
-    color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
 
-
+.navbar {
+  background-color: #060031;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0 50px; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
 
 }
 
-header .header-logo img{
-    width: 10rem;
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
 
+.navbar-logo img {
+  height: 20px;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente los enlaces */
+  align-items: center;
+  margin-bottom: 0;
+  margin-right: 100px;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar-links li a:hover {
+  text-decoration: none;
+  color: #8076f0;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .btn {
+  background: linear-gradient(to right, #8076f0, #4d51f7);
+  border-color: #4d51f7;
+  color: white;
+  padding: 5px 20px;
+  font-size: 16px;
+  transition: background 0.3s ease; /* Transición suave para el fondo */
+  width: auto;
+  margin-left: 50px;
+}
+
+.navbar .btn:hover {
+  background: linear-gradient(to right, #060031, #4d51f7); /* Cambio de gradiente al pasar el ratón */
+  border-color: #4d51f7;
+}
+
+.navbar a{
+  width: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #333;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
 }
 
 /* End Header */

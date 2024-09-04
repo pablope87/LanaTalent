@@ -1,0 +1,43 @@
+.split-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.split-section .left, .split-section .right {
+    flex: 1; 
+}
+
+.split-section .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; 
+}
+
+.split-section .left img {
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.split-section .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333333; 
+}
+
+.split-section .right h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.split-section .right p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}

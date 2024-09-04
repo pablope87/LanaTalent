@@ -1,43 +1,89 @@
-.split-section {
+.Steps {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
+    background-color: #ffffff;
+    padding: 100px;
 }
 
-.split-section .left, .split-section .right {
-    flex: 1; 
+.Steps__Tittle h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #060031;
+    font-weight: 800;
 }
 
-.split-section .left {
+/* Bloque 1 y 3 */
+
+.Steps__bloque_1y3{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.Steps__bloque_1y3-A{
+    width: 40%;
+    display: flex;
+    justify-content: end;
     align-items: center;
-    background-color: #f0f0f0; 
+    padding-right: 50px;
 }
 
-.split-section .left img {
-    max-width: 100%;
-    height: 300px;
-    object-fit: cover;
+.Steps__bloque_1y3-A img{
+    height: 70px;
+
 }
 
-.split-section .right {
+.Steps__bloque_1y3-B{
+    width: 60%;
+    padding-left: 50px;
+}
+
+.Steps__bloque_1y3-B p{
+    max-width: 500px;
+
+}
+
+
+/* Bloque 2 y 4 */
+
+.Steps__bloque_2y4{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.Steps__bloque_2y4-B{
+    width: 40%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.Steps__bloque_2y4-B img{
+    height: 70px;
+
+}
+
+.Steps__bloque_2y4-A{
+    width: 60%;
+    padding-right: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: #ffffff;
-    color: #333333; 
+    align-items: end;
+    text-align: right;
 }
 
-.split-section .right h2 {
-    margin-bottom: 20px;
-    font-size: 2em;
+.Steps__bloque_2y4-A p{
+    max-width: 500px;
 }
 
-.split-section .right p {
-    font-size: 1.2em;
-    line-height: 1.6;
-}
+
+
+
+
+

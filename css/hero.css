@@ -22,7 +22,7 @@
 }
 
 .hero-text h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: left;
     color: #ffffff;
     font-weight: 800;
@@ -32,10 +32,9 @@
 .hero-text h6 {
     padding-bottom: 30px;
     font-size: 1.3rem;
-    max-width: 620px;
+    max-width: 560px;
+    font-weight: 300;
 }
-
-
 
 .gradient-text {
     background-image: linear-gradient(to right, #8076f0, #4d51f7);
@@ -43,7 +42,7 @@
     background-clip: text;
     color: transparent; 
     /* font-size: 2.5rem; */
-    font-size: 4rem;
+    font-size: 3.5rem;
     
 }
 
@@ -53,6 +52,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-right: 100px;
+padding-bottom: 50px;
 }
 
 .hero img{

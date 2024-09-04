@@ -12,7 +12,7 @@
 }
 
 .image-container img {
-    width: 200px;
+    width: 350px;
     height: auto;
     object-fit: cover; /* Asegura que la imagen cubra completamente su contenedor */
 }

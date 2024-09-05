@@ -30,8 +30,10 @@
     align-items: center;
     justify-content: center;
     color: white;
-    
+}
 
+.Benefits__number h1{
+    font-weight: 700;
 }
 
 .Benefits__number img{

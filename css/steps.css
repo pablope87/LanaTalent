@@ -4,10 +4,10 @@
     width: 100%;
     height: auto;
     background-color: #ffffff;
-    padding: 100px;
+    padding-top: 100px;
 }
 
-.Steps__Tittle h1{
+.Steps__Tittle h1 {
     font-size: 4rem;
     text-align: center;
     margin-bottom: 100px;
@@ -16,14 +16,13 @@
 }
 
 /* Bloque 1 y 3 */
-
-.Steps__bloque_1y3{
+.Steps__bloque_1y3 {
     display: flex;
     flex-direction: row;
     margin-bottom: 100px;
 }
 
-.Steps__bloque_1y3-A{
+.Steps__bloque_1y3-A {
     width: 40%;
     display: flex;
     justify-content: end;
@@ -31,31 +30,27 @@
     padding-right: 50px;
 }
 
-.Steps__bloque_1y3-A img{
+.Steps__bloque_1y3-A img {
     height: 70px;
-
 }
 
-.Steps__bloque_1y3-B{
+.Steps__bloque_1y3-B {
     width: 60%;
     padding-left: 50px;
 }
 
-.Steps__bloque_1y3-B p{
+.Steps__bloque_1y3-B p {
     max-width: 500px;
-
 }
 
-
 /* Bloque 2 y 4 */
-
-.Steps__bloque_2y4{
+.Steps__bloque_2y4 {
     display: flex;
     flex-direction: row;
     margin-bottom: 100px;
 }
 
-.Steps__bloque_2y4-B{
+.Steps__bloque_2y4-B {
     width: 40%;
     display: flex;
     justify-content: start;
@@ -63,12 +58,11 @@
     padding-left: 50px;
 }
 
-.Steps__bloque_2y4-B img{
+.Steps__bloque_2y4-B img {
     height: 70px;
-
 }
 
-.Steps__bloque_2y4-A{
+.Steps__bloque_2y4-A {
     width: 60%;
     padding-right: 50px;
     display: flex;
@@ -78,12 +72,46 @@
     text-align: right;
 }
 
-.Steps__bloque_2y4-A p{
+.Steps__bloque_2y4-A p {
     max-width: 500px;
 }
 
+/* Media Queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .Steps {
+        padding: 50px;
+    }
 
+    .Steps__Tittle h1 {
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+    }
 
+    .Steps__bloque_1y3, 
+    .Steps__bloque_2y4 {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
 
+    }
 
+    .Steps__bloque_1y3-A,
+    .Steps__bloque_1y3-B,
+    .Steps__bloque_2y4-A,
+    .Steps__bloque_2y4-B {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+    }
 
+    .Steps__bloque_1y3-A img,
+    .Steps__bloque_2y4-B img {
+        display: none;
+    }
+
+    .Steps__bloque_1y3-B p,
+    .Steps__bloque_2y4-A p {
+        max-width: 100%;
+    }
+}

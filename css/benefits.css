@@ -1,26 +1,25 @@
-#Benefits{
+#Benefits {
     height: auto;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    background-color:#8076f0;
-    padding: 100px;
+    flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+    background-color: #8076f0;
+    padding: 50px; /* Reducir padding para pantallas más pequeñas */
     text-align: center;
     align-items: center;
     justify-content: center;
-
+    box-sizing: border-box;
 }
 
-.Benefits__cards{
+.Benefits__cards {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 20px;
-
-
+    flex-wrap: wrap; /* Permite que los elementos se acomoden en varias líneas si es necesario */
 }
 
-.Benefits__number{
+.Benefits__number {
     background-color: transparent;
     border-radius: 5px;
     height: 100px;
@@ -30,28 +29,56 @@
     align-items: center;
     justify-content: center;
     color: white;
+    margin: 10px; /* Añadir margen para separar los elementos en pantallas pequeñas */
 }
 
-.Benefits__number h1{
+.Benefits__number h1 {
     font-weight: 700;
 }
 
-.Benefits__number img{
-width: 100px;    
+.Benefits__number img {
+    width: 100px;
 }
 
-#Benefits .card{
+#Benefits .card {
     width: min-content;
     border: none;
     background-color: transparent;
     color: #ffffff;
 }
 
-.Benefits__tittle{
+.Benefits__tittle {
     color: #ffffff;
     font-weight: 800;
     padding-bottom: 50px;
-    font-size: 4rem;
+    font-size: 3rem;
+}
+
+/* Media queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+    #Benefits {
+        padding: 20px; /* Reducir padding para pantallas pequeñas */
+    }
+
+    .Benefits__cards {
+        flex-direction: column; /* Cambiar a columna para mejor visualización en pantallas pequeñas */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Benefits__number {
+        width: 100%; /* Ajustar el ancho para pantallas más pequeñas */
+        height: auto;
+    }
+
+    .Benefits__tittle {
+        font-size: 2.5rem; /* Reducir el tamaño del título */
+        padding-bottom: 30px;
+    }
+
+    .Benefits__number img {
+        width: 80px; /* Reducir el tamaño de las imágenes */
+    }
 }
 
 

@@ -54,14 +54,14 @@
   right: 50px;
 }
 
-.bar {
+/* .bar {
   display: block;
   width: 25px;
   height: 3px;
   background-color: #fff;
   margin: 5px;
   transition: background-color 0.3s ease;
-}
+} */
 
 .navbar .btn {
   background: linear-gradient(to right, #8076f0, #4d51f7);
@@ -86,21 +86,26 @@
 @media screen and (max-width: 768px) {
   .navbar-links {
     display: none;
-    flex-direction: column;
+    /* flex-direction: column;
     width: 100%;
     position: absolute;
     top: 60px;
     left: 0;
-    background-color: #333;
+    background-color: #333; */
   }
 
   .navbar-links.active {
-    display: flex;
+    /* display: flex; */
   }
 
   .navbar-toggle {
-    display: block;
+    /* display: block; */
   }
+
+  .navbar-logo{
+    margin-left: 0px;
+  }
+
 }
 
 /* End Header */

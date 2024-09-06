@@ -29,5 +29,24 @@
 @media (max-width: 576px) {
     #Companies ul{
         flex-direction: column;
+        padding: 0;
     }
+
+    #Companies ul img{
+        width: 200px;
+    }
+
+    #Companies ul li{
+        padding: 40px;
+    }
+
+    #Companies {
+        padding: 50px 0px;
+    }
+
+    #Companies h4 {
+        padding-bottom: 50px;
+    }
+
+
 }

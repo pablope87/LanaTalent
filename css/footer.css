@@ -26,7 +26,7 @@ footer img{
 .footer-section h6 {
     margin-bottom: 30px;
     text-align: center;
-    color:  whitesmoke;
+    color:  #4d51f7;
     font-weight: 600;
 }
 
@@ -123,6 +123,15 @@ footer img{
     align-items: center;
 }
 
+Footer .btn {
+    background: linear-gradient(to right, #8076f0, #4d51f7);
+    border-color: #4d51f7;
+}
+
+Footer .btn:hover {
+    background: linear-gradient(to right, #060031, #4d51f7);
+    border-color: #4d51f7;
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {

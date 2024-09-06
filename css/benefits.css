@@ -2,9 +2,9 @@
     height: auto;
     width: 100%;
     display: flex;
-    flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+    flex-direction: column; 
     background-color: #8076f0;
-    padding: 50px; /* Reducir padding para pantallas más pequeñas */
+    padding: 50px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -16,7 +16,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding-top: 20px;
-    flex-wrap: wrap; /* Permite que los elementos se acomoden en varias líneas si es necesario */
+    flex-wrap: wrap;
 }
 
 .Benefits__number {
@@ -55,29 +55,31 @@
 }
 
 /* Media queries para pantallas más pequeñas */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     #Benefits {
-        padding: 20px; /* Reducir padding para pantallas pequeñas */
+        padding: 50px 0px; 
     }
 
     .Benefits__cards {
-        flex-direction: column; /* Cambiar a columna para mejor visualización en pantallas pequeñas */
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
 
-    .Benefits__number {
-        width: 100%; /* Ajustar el ancho para pantallas más pequeñas */
+    .Benefits__number .cadr_body{
+        width: 100%; 
         height: auto;
     }
 
-    .Benefits__tittle {
-        font-size: 2.5rem; /* Reducir el tamaño del título */
-        padding-bottom: 30px;
+    .Benefits__number{
+        justify-content: end;
     }
 
-    .Benefits__number img {
-        width: 80px; /* Reducir el tamaño de las imágenes */
+    .Benefits__tittle {
+        font-size: 2rem;
+        padding-bottom: 30px;
+        padding-top: 30px;
     }
 }
 

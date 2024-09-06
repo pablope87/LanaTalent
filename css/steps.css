@@ -77,7 +77,7 @@
 }
 
 /* Media Queries para pantallas más pequeñas */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .Steps {
         padding: 50px;
     }
@@ -108,7 +108,7 @@
 
     .Steps__bloque_2y4-B img {
         margin-bottom: 30px;
-          }
+        }
 
     .Steps__bloque_1y3-A img {
     margin-bottom: 30px;

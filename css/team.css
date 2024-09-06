@@ -47,5 +47,25 @@
 @media (max-width: 576px) {
     #Team ul{
         flex-direction: column;
+        padding: 0%;
+
+    }
+
+    #Team ul li{
+        margin-bottom: 50px;
+    }
+
+    #Team h1{
+        font-size: 2rem;
+        padding-top: 50px;
+    }
+
+    #Team h4{
+        padding: 40px 15px;
+    }
+
+    #Team{
+        padding: 30px 0px;
+
     }
 }

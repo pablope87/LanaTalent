@@ -83,7 +83,7 @@
     }
 
     .Steps__Tittle h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-bottom: 50px;
     }
 
@@ -103,15 +103,20 @@
         padding: 0;
         text-align: center;
         align-items: center;
+        justify-content: center;
     }
 
-    .Steps__bloque_1y3-A img,
     .Steps__bloque_2y4-B img {
-        display: none;
+        margin-bottom: 30px;
+          }
+
+    .Steps__bloque_1y3-A img {
+    margin-bottom: 30px;
+        }
+    
+
+    .Steps__bloque_2y4{
+        flex-direction: column-reverse;   
     }
 
-    .Steps__bloque_1y3-B p,
-    .Steps__bloque_2y4-A p {
-        max-width: 100%;
-    }
 }

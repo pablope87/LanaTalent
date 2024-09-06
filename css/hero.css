@@ -61,8 +61,9 @@
     background: linear-gradient(to right, #8076f0, #4d51f7);
     border-color: #4d51f7;
     color: white;
-    padding: 5px 20px;
-    font-size: 16px;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
     transition: background 0.3s ease;
     width: auto;
 }

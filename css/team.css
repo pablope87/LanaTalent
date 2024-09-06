@@ -43,3 +43,9 @@
 #Team p, .blockquote-footer{
     color: #ffffff;
 }
+
+@media (max-width: 576px) {
+    #Team ul{
+        flex-direction: column;
+    }
+}

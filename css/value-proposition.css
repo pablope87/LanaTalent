@@ -45,4 +45,48 @@
     /* background-color: lightgrey; */
     
 }
+
+@media (max-width: 992px){
+
+}
+
+@media (max-width: 768px){
+
+} 
+
+
+@media (max-width: 576px) {
+
+    #ValueProposition {
+        padding: 20px;
+
+    }
+
+
+    .ValueProposition__title__A {
+        padding-top: 20px;
+        font-size: 2rem;
+    }
+
+    .ValueProposition__cards .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: transparent;
+    }
+    
+    
+    
+    .ValueProposition__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+        text-align: left;
+    
+    }
+
+}
+
 /* End ValueProposition */

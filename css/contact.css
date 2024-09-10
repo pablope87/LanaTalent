@@ -1,38 +1,35 @@
-.mapa iframe{
-    display: flex;
-    height:50vh;
-    width:100%;
-}
+
 
 #contenedor-form{
     padding-left: 20px;
 }
 
-#contacto{
+#Contact{
     background-color: #ffffff;
     padding: 0px 0px 40px 20px; 
 }
 
-#contacto h2{
+#Contact h2{
     color: black;
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
     padding: 40px 0px 40px 0px;
     text-align: left;
+    color: #060031;
 }
 
-#contacto form{
+#Contact form{
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 
-#contacto input{
+#Contact input{
     width: 100%;
     height: 40px;
 }
 
-#contacto input, textarea{
+#Contact input, textarea{
     margin: 10px 0px 10px 0px;
     border-width: 0 0 1px 0;
     opacity: 0.6;
@@ -41,39 +38,33 @@
     resize:none 
 }
 
-#contacto button{
+#Contact button{
     width: 100px;
 }
 
-#contacto textarea{
-height: 180px;
+#Contact textarea{
+min-height: 180px;
+
 }
 
-.contacto-columna1{
+.Contact-columna1{
     text-align: left;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    
-}
-
-.contacto-columna1 span{
-
-    padding: 13px 0px 13px 0px;
-
-    display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
-    
-
 }
-.contacto-columna1 i{
-    padding-right: 10px;
-    display: flex;
 
-    justify-content: left;
-    align-items: left;
-    
-    
+.Contact-columna1 img{
+    width: 50%;
+}
+
+
+#Contact .btn {
+    background: linear-gradient(to right, #8076f0, #4d51f7);
+    border-color: #4d51f7;
+}
+#Contact .btn:hover {
+    background: linear-gradient(to right, #060031, #4d51f7);
+    border-color: #4d51f7;
 }

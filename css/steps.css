@@ -5,6 +5,7 @@
     height: auto;
     background-color: #ffffff;
     padding-top: 100px;
+    overflow: hidden;
 }
 
 .Steps__Tittle h1 {
@@ -43,7 +44,20 @@
     max-width: 500px;
 }
 
+.Steps__bloque_1y3-A .Steps__bloque_1y3-A-imagen{
+    height: 150px;
+    margin-right: 80px;
+}
+
+
+
 /* Bloque 2 y 4 */
+
+.Steps__bloque_2y4-B .Steps__bloque_2y4-B-imagen{
+    height: 220px;
+    margin-left: 80px;
+}
+
 .Steps__bloque_2y4 {
     display: flex;
     flex-direction: row;

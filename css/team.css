@@ -40,6 +40,12 @@
     color: white;
 }
 
+#Team i:hover{
+    color: #8076f0;
+}
+
+
+
 #Team p, .blockquote-footer{
     color: #ffffff;
 }

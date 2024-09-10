@@ -27,7 +27,7 @@
 .navbar-links {
   list-style-type: none;
   display: flex;
-  justify-content: center; /* Centra horizontalmente los enlaces */
+  justify-content: center; 
   align-items: center;
   margin-bottom: 0;
   margin-right: 100px;
@@ -69,13 +69,13 @@
   color: white;
   padding: 5px 20px;
   font-size: 16px;
-  transition: background 0.3s ease; /* Transición suave para el fondo */
+  transition: background 0.3s ease; 
   width: auto;
   margin-left: 50px;
 }
 
 .navbar .btn:hover {
-  background: linear-gradient(to right, #060031, #4d51f7); /* Cambio de gradiente al pasar el ratón */
+  background: linear-gradient(to right, #060031, #4d51f7);
   border-color: #4d51f7;
 }
 

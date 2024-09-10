@@ -115,7 +115,7 @@
 @media (max-width: 768px) {
 
     .hero img {
-        height: 500px;
+        /* height: 500px; */
     }
 }
 
@@ -123,18 +123,19 @@
 
 @media (max-width: 576px) {
     .hero-text h1 {
-        font-size: 2rem;
+        font-size: 2em;
         
     }
 
     .hero-text {
         align-items: center;
+        justify-content: center;
     }
 
 
 
     .hero-text h6 {
-        font-size: 1rem;
+        font-size: 1em;
     }
 
     .gradient-text {
@@ -142,11 +143,12 @@
     }
 
     .hero img {
-        height: 200px;
+        /* height: 200px; */
     }
 
     .hero {
-        padding-top: 20px;
+
+
 
     }
 

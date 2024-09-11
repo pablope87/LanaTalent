@@ -38,10 +38,15 @@
 .Steps__bloque_1y3-B {
     width: 60%;
     padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    
+
 }
 
 .Steps__bloque_1y3-B p {
     max-width: 500px;
+    
 }
 
 .Steps__bloque_1y3-A .Steps__bloque_1y3-A-imagen{
@@ -91,7 +96,10 @@
 }
 
 /* Media Queries para pantallas más pequeñas */
-@media (max-width: 576px) {
+
+
+
+@media (max-width: 1280px) {
     .Steps {
         padding: 50px;
     }
@@ -133,6 +141,12 @@
 
     .Steps__bloque_2y4{
         flex-direction: column-reverse;   
+    }
+
+    .Steps__bloque_1y3-B {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
 }

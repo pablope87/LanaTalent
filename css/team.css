@@ -50,7 +50,7 @@
     color: #ffffff;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
     #Team ul{
         flex-direction: column;
         padding: 0%;

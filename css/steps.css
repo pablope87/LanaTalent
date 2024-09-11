@@ -106,7 +106,6 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 50px;
-
     }
 
     .Steps__bloque_1y3-A,
@@ -120,14 +119,17 @@
         justify-content: center;
     }
 
-    .Steps__bloque_2y4-B img {
-        margin-bottom: 30px;
-        }
-
-    .Steps__bloque_1y3-A img {
+    .Steps__bloque_1y3-A img, .Steps__bloque_2y4-B img  {
     margin-bottom: 30px;
         }
+
+    .Steps__bloque_1y3-A-imagen{
+        display: none;
+    }
     
+    .Steps__bloque_2y4-B-imagen{
+        display: none;
+    }
 
     .Steps__bloque_2y4{
         flex-direction: column-reverse;   

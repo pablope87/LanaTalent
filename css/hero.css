@@ -3,9 +3,10 @@
     height: 80vh;
     background-color: #060031;
     overflow: hidden;
-    padding-top: 0px;
+    margin-top: -90px;
     flex-direction: row;
-    margin: 0%;
+
+    
 }
 
 .hero-text {
@@ -18,7 +19,15 @@
     margin-left: 145px;
     padding-bottom: 30px;
     max-width: 500px;
+}
 
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    padding: 50px 70px;
 }
 
 .hero-text h1 {
@@ -44,14 +53,7 @@
     font-size: 3.5rem;
 }
 
-.hero-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 100px;
-    padding: 50px 70px;
-}
+
 
 .hero img {
     /* height: 300px; */

@@ -42,25 +42,28 @@
     margin-bottom: 20px;
     margin-top: 60px;
     margin-left: 16px;
-    /* background-color: lightgrey; */
-    
 }
 
-@media (max-width: 992px){
-
+.card-body{
+    max-width: 20rem;
 }
 
-@media (max-width: 768px){
+@media (max-width: 992px) {
 
-} 
-
-
-@media (max-width: 576px) {
-
-    #ValueProposition {
-        padding: 50px 20px;
+    .card-body{
+        max-width: 100%;
     }
+    
 
+    .ValueProposition__cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+
+    }
 
     .ValueProposition__title__A {
         padding-top: 20px;
@@ -72,19 +75,19 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-color: transparent;
+
+
+
 
     }
-    
-    
-    
+
     .ValueProposition__cards {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: start;
         text-align: left;
-        padding: 0%;
+        
     
     }
 

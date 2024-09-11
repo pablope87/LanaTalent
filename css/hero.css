@@ -82,12 +82,13 @@
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 1280px) {
     .hero{
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
-        
       }
 
     .hero {
@@ -95,15 +96,14 @@
         padding-top: 0;
     }
 
-    .hero button {
+    .hero-text {
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-
-    .hero-text {
-        margin-left: 20px;
-        margin-right: 20px;
         text-align: center;
+        padding: 0%;
+        margin: 0;
     }
 
     .hero-text h1 {
@@ -120,18 +120,12 @@
 
     .hero-image {
         margin-right: 0;
-        padding-bottom: 20px;
+        padding: 0;
+
     }
 
     .hero img {
         height: 300px;
-    }
-}
-
-@media (max-width: 768px) {
-
-    .hero img {
-        /* height: 500px; */
     }
 }
 
@@ -162,11 +156,6 @@
         /* height: 200px; */
     }
 
-    .hero {
-
-
-
-    }
 
     .hero-image {
         display: none;

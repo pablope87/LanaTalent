@@ -3,7 +3,7 @@
     height: 80vh;
     background-color: #060031;
     overflow: hidden;
-    margin-top: -90px;
+    transform: translateY(-80px); 
     flex-direction: row;
 
     

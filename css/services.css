@@ -45,7 +45,7 @@
 }
 
 /* Media Queries para pantallas más pequeñas */
-@media (max-width: 1024px) {
+@media (max-width: 979px) {
     .Services {
         flex-direction: column;
         margin-top: 50px;

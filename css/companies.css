@@ -28,7 +28,7 @@
 
 
 
-@media (max-width: 1280px) {
+@media (max-width: 1200px) {
     #Companies ul{
         flex-direction: column;
         padding: 0;

@@ -139,7 +139,14 @@ display: none;
 @media (max-width: 576px) {
     .hero-text h1 {
         font-size: 2em;
+        padding-left: 25px;
+        padding-right: 25px;
         
+    }
+
+    .hero-text h6 {
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .hero-text {
